@@ -71,7 +71,7 @@ class Kayitlar(object):
         if sys.platform == 'win32':
             self.konum(908,480,self.kayitlar_pencere)
         else:
-            self.konum(908,460,self.kayitlar_pencere)
+            self.konum(1000,490,self.kayitlar_pencere)
         self.kayitlar_pencere.tk_setPalette('#9fb6cd')
         self.kayitlar_pencere.resizable(width=FALSE, height=FALSE)
         self.kayitlar_pencere_titlE = self.kayitlar_pencere.title("""CUT VERİ
